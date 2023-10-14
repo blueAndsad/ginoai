@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="dell@10.129.45.156:22" type="ssh/sftp" uuid="664045c3-865a-4b94-96c8-18981337db29">
+        <config>
+          <option name="projectRootOnTarget" value="/home/dell/awesomeProject" />
+          <option name="serverName" value="dell@10.129.45.156:22 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/dell/.bash_profile: 行 2: /home/dell/sdn/onos/tools/dev/bash_profile: 没有那个文件或目录" />
+            <option name="goRoot" value="/home/dell/.bash_profile: 行 2: /home/dell/sdn/onos/tools/dev/bash_profile: 没有那个文件或目录" />
+            <option name="goVersion" value="/home/dell/.bash_profile: 行 2: /home/dell/sdn/onos/tools/dev/bash_profile: 没有那个文件或目录" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="dell@10.129.45.156:22" type="ssh/sftp" uuid="cf3eb8b6-078e-47e1-942b-906a80f16754">
+        <config>
+          <option name="projectRootOnTarget" value="/home/dell/awesomeProject" />
+          <option name="serverName" value="dell@10.129.45.156:22 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/usr/local/go/bin" />
+            <option name="goRoot" value="/home/dell/go" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
