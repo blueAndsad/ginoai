@@ -10,6 +10,7 @@ func SetupRouter() *gin.Engine {
 	v1Group := r.Group("v1")
 	{
 		v1Group.GET("test", controller.Hello)
+		v1Group.POST("test1", controller.Hello1)
 	}
 
 	return r
